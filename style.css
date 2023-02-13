@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 
+html, body{
+    width: 100% !important;
+    overflow-x: hidden !important; 
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
