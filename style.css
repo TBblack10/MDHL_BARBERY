@@ -83,25 +83,51 @@ div{
 }
 
 nav{
-    height: 40%;
-    width: 160px;
+    width: 190px;
     position: absolute;
-    font-size: 30px;
+    font-size: 22px;
     list-style-type: none;
-    line-height: 80px;
+    line-height: 110px;
     left: 10px;
 }
 
 main{
+    height: 80%;
+    width: 740px;
     position: absolute;
     left: 200px;
 
 }
 
 .menu{
+    text-decoration: none;
     color: rgb(255, 252, 80);
+    font-weight: bold;
 }
 
 #correo{
     color: rgb(255, 252, 80);
 }
+
+table{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+tr, th ,td{
+    padding: 12px 35px;
+}
+
+th{
+    text-align: left;
+}
+
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: red;
+ }
