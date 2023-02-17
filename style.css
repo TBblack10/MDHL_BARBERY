@@ -45,7 +45,6 @@ h1{
     font-size: 16px;
 }
 
-
 .banner{
     position: absolute;
     object-fit: cover;
@@ -67,7 +66,7 @@ div{
 }
 
 .img1{
-    position: relative;
+    position: absolute;
     left: 95%;
     top: 245px;
     height: 20px;
@@ -86,18 +85,20 @@ div{
 nav{
     width: 190px;
     position: absolute;
-    font-size: 22px;
+    font-size: 20px;
     list-style-type: none;
     line-height: 45px;
+    top: 51;
     left: 10px;
 }
 
 main{
-    height: 100%;
+    height: 35%;
     width: 740px;
     position: absolute;
     left: 23%;
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .menu{
@@ -109,7 +110,6 @@ main{
         color: white;
     }
 
-
 #correo{
     color: rgb(255, 252, 80);
 }
@@ -119,9 +119,7 @@ table{
     margin-top: 20px;
     margin-left: 30px;
     margin-bottom: 20px;
-
 }
-
 
 tr, th ,td{
     padding: 12px 35px;
@@ -131,9 +129,16 @@ th{
     text-align: left;
 }
 
-
 thead{
     display: table-header-group;
     vertical-align: middle;
     border-color: red;
- }
+}
+
+ input[type="submit"] {
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: rgb(255, 252, 80);;
+    border-radius: 5px;
+    color: black;
+}
