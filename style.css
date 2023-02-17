@@ -15,38 +15,39 @@ html, body{
 body{
     background-color: rgb(0, 0, 0);
     color: white;
-    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header{
     height: 323px;
     width: 100%;
+    background-position: 10% 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1{
     position: absolute;
+    top: 0px;
     background-color: #0208087a;
-
     color: rgb(255, 252, 80);
     width: 100%;
-    height: 50px;
+    height: 47px;
     padding: 5px; 
     text-align: center;
 }h2{
-    position: absolute;
     color: rgb(255, 252, 80);
-    top: 330px;
-    left: 42%;
 }h3{
     line-height: 40px;
     font-size: 20px;
 }p{
-    line-height: 27px;
-    font-size: 16px;
+    padding: 7px 0px;
 }
 
 .banner{
-    position: absolute;
     object-fit: cover;
     height: 50vh;
     width: 100vw;
@@ -62,7 +63,13 @@ h1{
 }
 
 div{
-    height: 45px;
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img1{
@@ -83,22 +90,25 @@ div{
 }
 
 nav{
-    width: 190px;
-    position: absolute;
+    max-width: 17vw;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
     font-size: 20px;
     list-style-type: none;
-    line-height: 45px;
-    top: 51;
-    left: 10px;
+    line-height: 40px;
 }
 
 main{
-    height: 35%;
-    width: 740px;
-    position: absolute;
-    left: 23%;
-    display: flex;
+    align-items: center;
     flex-wrap: wrap;
+    height: 100%;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
 }
 
 .menu{
@@ -122,7 +132,7 @@ table{
 }
 
 tr, th ,td{
-    padding: 12px 35px;
+    padding: 5px 27px;
 }
 
 th{
@@ -135,10 +145,50 @@ thead{
     border-color: red;
 }
 
- input[type="submit"] {
+form{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.articles{
+    min-width: 500px;
+    max-width: 600px
+}
+
+input[type="submit"] {
     padding: 5px 10px;
     font-weight: bold;
     background-color: rgb(255, 252, 80);;
     border-radius: 5px;
     color: black;
+}
+
+input[type="text"]{
+    border: 0px;
+    border-bottom: 2px solid;
+    background-color: black;
+    border-color: white;
+    color: rgb(238, 233, 233);
+}
+
+fieldset{
+    border: 0px;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.p.last_p{
+    display: flex;
+    justify-content: space-between;
 }
