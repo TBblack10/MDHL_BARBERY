@@ -156,8 +156,8 @@ form{
 }
 
 .articles{
-    min-width: 500px;
-    max-width: 600px
+    height: 100%;
+    width: 90%;
 }
 
 input[type="submit"] {
@@ -191,4 +191,10 @@ fieldset{
 .p.last_p{
     display: flex;
     justify-content: space-between;
+}
+
+.mapas{
+    position: absolute;
+    top: 60rem;
+    left: 30rem;
 }
