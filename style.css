@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+html, body{
+    width: 100% !important;
+    overflow-x: hidden !important; 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    height: 323px;
+    width: 100%;
+    background-position: 10% 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+    top: 0px;
+    background-color: #0208087a;
+    color: rgb(255, 252, 80);
+    width: 100%;
+    height: 47px;
+    padding: 5px; 
+    text-align: center;
+}h2{
+    color: rgb(255, 252, 80);
+}h3{
+    line-height: 40px;
+    font-size: 20px;
+}p{
+    padding: 7px 0px;
+}
+
+.banner{
+    object-fit: cover;
+    height: 50vh;
+    width: 100vw;
+}
+
+.logo{
+    height: 200px;
+    position: fixed;
+    top: 170px;
+    left: 950px;
+    transition: all 1s;
+    transform: scale(1.2);
+}
+
+div{
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    position: absolute;
+    left: 95%;
+    top: 245px;
+    height: 20px;
+}.img2{
+    position: relative;
+    left: 95%;
+    top: 245px;
+    height: 20px;
+}.img3{
+    position: relative;
+    left: 95%;
+    top: 245px;
+    height: 20px;
+}
+
+nav{
+    max-width: 17vw;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+main{
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.menu{
+    text-decoration: none;
+    color: rgb(255, 252, 80);
+    font-weight: bold;
+}
+.menu:hover{
+        color: white;
+    }
+
+#correo{
+    color: rgb(255, 252, 80);
+}
+
+table{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+tr, th ,td{
+    padding: 5px 27px;
+}
+
+th{
+    text-align: left;
+}
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: red;
+}
+
+form{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.articles{
+    height: 100%;
+    width: 90%;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: rgb(255, 252, 80);;
+    border-radius: 5px;
+    color: black;
+}
+
+input[type="text"]{
+    border: 0px;
+    border-bottom: 2px solid;
+    background-color: black;
+    border-color: white;
+    color: rgb(238, 233, 233);
+}
+
+fieldset{
+    border: 0px;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.p.last_p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapas{
+    position: absolute;
+    top: 60rem;
+    left: 30rem;
+}
